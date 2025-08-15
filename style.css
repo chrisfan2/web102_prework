@@ -9,6 +9,25 @@ body {
     width: 50px;
 }
 
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+input {
+
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stats-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
 .header {
     display: flex;
     background-color: lightblue;
@@ -32,7 +51,9 @@ body {
     text-align: center;
 }
 
-#num-contributions, #total-raised, #num-games {
+#num-contributions,
+#total-raised,
+#num-games {
     font-size: 50px;
 }
 
